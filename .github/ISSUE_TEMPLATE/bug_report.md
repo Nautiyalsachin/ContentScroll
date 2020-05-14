@@ -1,34 +1,81 @@
 ---
-name: "🐛 Bug Report"
-about: Report a reproducible bug or regression in Razorpay Flutter plugin.
-title: ''
-labels: 'Needs: Triage :mag:'
-
+name: 🐛 Bug Report
+about: Bugs, missing documentation, or unexpected behavior 🤔.
 ---
 
-Please provide all the information requested. Issues that do not follow this format are likely to stall.
+<!--
 
-## Description
-Please provide a clear and concise description of what the bug is. Include screenshots if needed.
-Please test using the latest Razorpay Flutter plugin release to make sure your issue has not already been fixed: 
+* Please fill out this template with all the relevant information so we can
+  understand what's going on and fix the issue. We appreciate bugs filed and PRs
+  submitted!
 
-## Flutter Version :
-Run `flutter version` in your terminal and copy the results here.
+* If your issue is regarding one of the query APIs (`getByText`,
+  `getByLabelText`, etc), then please file it on the `dom-testing-library`
+  repository instead. If you file it here it will be closed. Thanks :)
 
-## Xcode Version :
-Open Xcode > Go to `About Xcode` > copy the Xcode version here.
+* Please make sure that you are familiar with and follow the Code of Conduct for
+  this project (found in the CODE_OF_CONDUCT.md file).
 
-## Steps To Reproduce
-Provide a detailed list of steps that reproduce the issue.
+We'll probably ask you to submit the fix (after giving some direction). If
+you've never done that before, that's great! Check this free short video
+tutorial to learn how: http://kcd.im/pull-request
 
-1.
-2.
+-->
 
-## Expected Results
-Describe what you expected to happen.
+- `@testing-library/react` version:
+- Testing Framework and version:
+  <!-- are you using jest, mocha, puppeteer, ava? And what version? -->
+- DOM Environment:
+  <!-- If you're using jsdom (the default with jest), what version? Otherwise, what browser and version are you running tests in? -->
 
-## Snack, code example, screenshot, or link to a repository:
-Please provide a Snack (https://snack.expo.io/), a link to a repository on GitHub, or provide a minimal code example that reproduces the problem.
-You may provide a screenshot of the application if you think it is relevant to your bug report.
-Here are some tips for providing a minimal example: https://stackoverflow.com/help/mcve
+<!--
+Keep in mind that if you're using a version of node we don't support that
+could also be an issue. Check our package.json file "engines" config for the
+supported version.
 
+Also keep in mind that if you're using a version of react we don't support
+that could be an issue. Check our package.json file "peerDependencies" config
+for the supported version.
+-->
+
+### Relevant code or config:
+
+```js
+var your => (code) => here;
+```
+
+<!--
+If this is an issue with documentation, please file an issue on the docs repo:
+https://github.com/alexkrolick/testing-library-docs
+-->
+
+### What you did:
+
+<!-- What you were doing -->
+
+### What happened:
+
+<!-- Please provide the full error message/screenshots/anything -->
+
+### Reproduction:
+
+<!--
+If possible, please create a repository that reproduces the issue with the
+minimal amount of code possible.
+
+Template repo: https://github.com/alexkrolick/dom-testing-library-template
+
+Or if you can, try to reproduce the issue in a Codesandbox. You can fork the one
+here: https://codesandbox.io/s/5z6x4r7n0p
+-->
+
+### Problem description:
+
+<!-- Please describe why the current behavior is a problem -->
+
+### Suggested solution:
+
+<!--
+It's ok if you don't have a suggested solution, but it really helps if you could
+do a little digging to come up with some suggestion of how to improve things.
+-->
