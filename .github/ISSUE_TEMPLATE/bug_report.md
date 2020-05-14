@@ -74,7 +74,6 @@ here: https://codesandbox.io/s/5z6x4r7n0p
 <!-- Please describe why the current behavior is a problem -->
 
 ### Suggested solution:
-
 <!--
 It's ok if you don't have a suggested solution, but it really helps if you could
 do a little digging to come up with some suggestion of how to improve things.
