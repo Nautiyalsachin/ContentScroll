@@ -7,7 +7,7 @@ labels: 'Needs: Triage :mag:'
 ---
 
 <!--
---- 👆 Click "Preview"!
+------ 👆 Click "Preview"!
 
 HI! PLEASE STOP TO READ THIS!! IF YOU DO NOT FOLLOW THE INSTRUCTIONS, YOUR ISSUE
 WILL LIKELY BE CLOSED.
@@ -23,7 +23,7 @@ Please test using the latest Razorpay pod release to make sure your issue has no
 
 ## Razorpay pod Version :
 
-Open podfile for checking the razorpay-pod version if it's not mentioned their then open podfile.lock and copy the pod version here. 
+Open `podfile` for checking the razorpay-pod version if it's not mentioned their then open `podfile.lock` and copy the pod version here. 
 
 ## Xcode Version :
 Open Xcode > Go to `About Xcode` > copy the Xcode version here.
